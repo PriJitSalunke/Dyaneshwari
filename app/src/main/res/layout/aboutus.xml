@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/colorPrimary"
+android:layout_margin="10dp"
+android:padding="10dp"
+android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DESIGNED AND DEVELOPED BY"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:padding="5dp"
+    android:gravity="center"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PriJit Creations, Aurangabad"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:padding="2dp"
+    android:gravity="center"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Call Us : +91 9595219155"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:padding="2dp"
+    android:gravity="center"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Email : prijitcreations@gmail.com"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:padding="2dp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+</LinearLayout>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView_about1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_small_screen_prijit"/>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView_about2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_small_screen_prijit"/>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView_about3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_small_screen_prijit"/>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView_about4"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_small_screen_prijit"/>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView_about5"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_small_screen_prijit"/>
+
+    </LinearLayout>
+</RelativeLayout>
